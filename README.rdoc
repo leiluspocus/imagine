@@ -25,9 +25,6 @@ more separate. Each of these packages can be used independently outside of
 Rails. You can read more about Action Pack in
 link:files/vendor/rails/actionpack/README.html.
 
-== Imagine Project
-Imagine is a website where people can post reviews of books they read.
-It is also a way for me to learn RoR and have some experimentation in CSS.
 
 == Getting Started
 

@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Imagine::Application.config.secret_token = 'db9878daf1f4a5a69c8b076cca3989e9d1162ab43168d3f48b0877c96fcaf893f6358a6cfca3c6e60e453a875035e8a086d7e5ecc690470ebfb570618b1d40a2'
+Imagine::Application.config.secret_token = '221b4c59edf9cdf664ca7cded12d056bf447d31d978617a58e7a1c54ebbe4f22a51a2e990f13e1e31a94511f991bbf7f25774490c724bfbd64e63ffa19cb485f'
