@@ -1,6 +1,7 @@
 Imagine::Application.routes.draw do
-  resources :books
-
+  resources :books do
+    resources :reviews
+  end
   #get "home/index"
   root :to => "home#index"
   
