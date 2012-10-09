@@ -27,6 +27,12 @@
     <b>Comment:</b>
     <%= review.body %>
   </p>
+  <p>
+  <%= link_to 'Destroy Review', [review.book, review],
+               :confirm => 'Are you sure?',
+               :method => :delete %>
+</p>
+
 <% end %>
 
 <h2>Add a review:</h2>
