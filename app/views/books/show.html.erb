@@ -41,8 +41,8 @@
 <h2>Add a review:</h2>
 <%= form_for([@book, @book.reviews.build]) do |f| %>
   <div class="field">
-    <%= f.label :author %><br />
-    <%= f.text_field :author %>
+    <%= f.label :author %> : 
+    <%= current_user.username %>
   </div>
   <div class="field">
     <%= f.label :grade %><br />
