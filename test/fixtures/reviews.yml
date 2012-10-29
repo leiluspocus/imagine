@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  author: MyString
+  body: MyText
+  grade: 1
+  book: 
+
+two:
+  author: MyString
+  body: MyText
+  grade: 1
+  book: 

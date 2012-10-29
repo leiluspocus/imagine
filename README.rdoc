@@ -1,0 +1,18 @@
+In a nutshell
+-------------------------------------------------------------------
+“Imagine” is a social portal-website where users can post reviews about books they read.
+
+Functionalities
+-------------------------------------------------------------------
+   - Authentication for users
+
+   - Posting reviews (each review has an author, a grade, and a content body)
+
+    - Each book has a grade (calculating the mean of all the reviews posted by users)
+
+In the future
+-------------------------------------------------------------------
+    - Facebook connect ?
+
+    - Mobile App ?
+

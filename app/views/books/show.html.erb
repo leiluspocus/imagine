@@ -1,0 +1,63 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @book.title %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @book.author %>
+</p>
+
+<p>
+  <b>Resume:</b>
+  <%= @book.resume %>
+</p>
+
+ 
+<h2>Reviews</h2>
+<% @book.reviews.each do |review| %>
+  <p>
+    <b>Author:</b>
+    <%= review.author %>
+  </p>
+  <p>
+    <b>Grade:</b>
+    <%= review.grade %>
+  </p>
+  <p>
+    <b>Comment:</b>
+    <%= review.body %>
+  </p>
+  <p>
+  <%= link_to 'Destroy review', [review.book, review],
+               :confirm => 'Are you sure?',
+               :method => :delete %>
+</p>
+<% end %>
+ 
+<h2>Add a review:</h2>
+<%= form_for([@book, @book.reviews.build]) do |f| %>
+  <div class="field">
+    <%= f.label :author %><br />
+    <%= f.text_field :author %>
+  </div>
+  <div class="field">
+    <%= f.label :grade %><br />
+    <%= f.text_area :grade %>
+  </div>
+  <div class="field">
+    <%= f.label :body %><br />
+    <%= f.text_area :body %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+ 
+<br />
+
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
