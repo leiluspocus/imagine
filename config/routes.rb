@@ -1,4 +1,6 @@
 Imagine::Application.routes.draw do
+  devise_for :users
+
   resources :users
 
   resources :books do
