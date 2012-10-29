@@ -37,6 +37,7 @@
 </p>
 <% end %>
  
+ <% if user_signed_in? %>
 <h2>Add a review:</h2>
 <%= form_for([@book, @book.reviews.build]) do |f| %>
   <div class="field">
@@ -54,6 +55,7 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+  <% end %>
 <% end %>
  
 <br />
