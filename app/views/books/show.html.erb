@@ -35,9 +35,12 @@
     <%= review.body %>
   </p>
   <p>
+  
+ <% if user_signed_in? %>
   <%= link_to 'Destroy review', [review.book, review],
                :confirm => 'Are you sure?',
                :method => :delete %>
+<% end %>
 </p>
 <% end %>
  
@@ -45,8 +48,10 @@
 <h2>Add a review:</h2>
 <%= form_for([@book, @book.reviews.build]) do |f| %>
   <div class="field">
-    <%= f.label :author %> : 
-    <%= current_user.username %>
+  
+    <%= f.label :author %><br />
+    <%= f.text_area :author, :value => current_user.username, :disabled => 'disabled' %>
+  
   </div>
   <div class="field">
     <%= f.label :grade %><br />
