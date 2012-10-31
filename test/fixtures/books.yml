@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  title: MyString
-  author: MyString
-  resume: MyText
+  title: The Alchemist
+  author: Paulo Coelho
+  resume: The Alchemist is a novel by Paulo Coelho first published in 1988. Originally written in Portuguese, it has been translated into 71 languages as of 2011. An allegorical novel, The Alchemist follows a young Andalusian shepherd named Santiago in his journey to Egypt, after having a recurring dream of finding treasure there.
 
 two:
-  title: MyString
-  author: MyString
-  resume: MyText
+  title: Into the wild
+  author: Jon Krakauer
+  resume: In April 1992 a young man from a well-to-do family hitchhiked to Alaska and walked alone into the wilderness north of Mt. McKinley. His name was Christopher Johnson McCandless. He had given $25,000 in savings to charity, abandoned his car and most of his possessions, burned all the cash in his wallet, and invented a new life for himself. Four months later, his decomposed body was found by a moose hunter....

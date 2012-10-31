@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  author: MyString
-  body: MyText
-  grade: 1
-  book: 
+  author: Bobby
+  body: Awesome book ! I think I read it 100 times but it is just so captivant.
+  grade: 10
+  book: one 
 
 two:
-  author: MyString
-  body: MyText
-  grade: 1
-  book: 
+  author: Larry
+  body: This book was ridiculously boring, i didnt like it at all. 
+  grade: 3
+  book: one 
