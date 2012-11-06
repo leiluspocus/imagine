@@ -1,6 +1,6 @@
 In a nutshell
 -------------------------------------------------------------------
-“Imagine” is a social portal-website where users can post reviews about books they read.
+“Imagine” is a social portal-website where users can post reviews about books they read. By the way, "Imagine" is definitely not the final name for this project, I just don't have ideas of name for the moment. If you have an idea of name that could suit to the project, feel free to send me a mail at imagine-project@latrmouh.org :)
 
 Functionalities
 -------------------------------------------------------------------
