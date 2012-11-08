@@ -1,5 +1,5 @@
 class Book < ActiveRecord::Base
-  attr_accessible :author, :resume, :titlew 
+  attr_accessible :author, :resume, :title 
   
   validates :author,  :presence => true
   validates :resume, :presence => true, :length => { :minimum => 50 }
