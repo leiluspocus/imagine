@@ -2,16 +2,26 @@ In a nutshell
 -------------------------------------------------------------------
 “Imagine” is a social portal-website where users can post reviews about books they read. By the way, "Imagine" is definitely not the final name for this project, I just don't have ideas of name for the moment. If you have an idea of name that could suit to the project, feel free to send me a mail at imagine-project@latrmouh.org :)
 
-Functionalities
+Functionalities implemented
 -------------------------------------------------------------------
-   - Authentication for users
-
+   - Authentication for users using Devise.
+   
    - Posting reviews (each review has an author, a grade, and a content body)
+   
+   - Each book has a grade (which is the mean of all the reviews posted by users)
+   
+Upcoming functionalities
+-------------------------------------------------------------------
+   - Moderation of reviews (a script that browses all reviews, hides reviews with bad words and sends a mail to the author of the review)
+   
+   - Feedback of reviews 
+   
+   - Design of the website
 
-    - Each book has a grade (calculating the mean of all the reviews posted by users)
 
 In the future
 -------------------------------------------------------------------
+
     - Facebook connect ?
 
     - Mobile App ?
